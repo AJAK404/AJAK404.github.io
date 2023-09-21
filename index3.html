@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Models</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+  
+<body class = "body">
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="index3.html">Models</a>
+    <a href="index2.html">About Machine Learning</a>
+    <a href="index4.html" class="right">Contact</a>
+  </nav>
+
+  <div class = "bodytext" style = "margin: 6vw">   
+    <button type="button" class="collapsible">Quiz: What model should I use?</button>
+    <div class = "coltext">
+      <div class = "Gen">
+        <h3>Is your expected output a value or category from data or generated content from a prompt?</h3>
+        <img src = "Qim/Gen.png" style = "width: 100%; left: 50%;">
+        <br>
+        <button id = "NGenerative" style = "float: left;">Value/Cateogry</button>
+        <button id = "Generative" style = "float: right;">Content</button>
+        <br>
+      </div>
+
+      <div class = "SorryGen">
+        <h2>Sorry, your dataset requires a generative model, which is unfortunately unavailable.</h2>
+        <p>However, we can direct you to generative models you might find useful. If you are looking to generate images, MidJourney is a popular image generator that only requires a short prompt. If you need to generate text, code, or possibly information, OpenAi's ChatGPT may be of assistance. Good luck!</p>
+        <br>
+        <button id = "retry" style = "float: left;">Restart</button>
+      </div>
+      
+      <div class = "Sup">
+        <h3>Is your data labeled or unlabled?</h3>
+        <img src = "Qim/Sup.png" style = "width: 100%; left: 50%;">
+        <br>
+        <button id = "Labeled" style = "float: left;">Labeled</button>
+        <button id = "Unlabled" style = "float: right;">Unlabled</button>
+        <br>
+      </div>
+
+      <div class = "SorryUnsup">
+        <h2>Sorry, your dataset requires unsupervised learning, which is currently under development.</h2>
+        <br>
+        <button id = "retry2" style = "float: right;">Restart</button>
+      </div>
+      
+      <div class = "Data">
+        <h3>Is your data comprised of words and numbers or images?</h3>
+        <img src = "Qim/Data.png" style = "width: 100%; left: 50%;"><br>
+        <button id = "Numbers" style = "float: left;">Words/Numbers</button>
+        <button id = "Images" style = "float: right;">Images</button>
+        <br>
+      </div>
+      
+      <div class = "ImLab">
+        <h3>Is your expected output a value or a category?</h3>
+        <img src = "Qim/ImLab.png" style = "width: 100%; left: 50%;"><br>
+        <button id = "ImValue" style = "float: left;">Value</button>
+        <button id = "ImCategory" style = "float: right;">Category</button>
+        <br>
+      </div>
+
+      <div class = "ImVal">
+        <h2>You may find our image processors useful.</h2>
+        <p>Contact us with your results to begin.</p>
+        <br>
+        <button id = "retry3" style = "float: right;">Restart</button>
+      </div>
+
+      <div class = "ImClass">
+        <h2>You may find our image classifiers useful.</h2>
+        <p>Contact us with your results to begin.</p>
+        <br>
+        <button id = "retry4" style = "float: right;">Restart</button>
+      </div>
+      
+      <div class = "DaLab">
+        <h3>Is your expected output a value or a category?</h3>
+        <img src = "Qim/DaLab.png" style = "width: 100%; left: 50%;"><br>
+        <button id = "DaValue" style = "float: left;">Value</button>
+        <button id = "DaCategory" style = "float: right;">Category</button>
+        <br>
+      </div>
+
+      <div class = "DaCat">
+        <h2>You may find our data classifiers useful.</h2>
+        <p>Contact us with your results to begin.</p>
+        <br>
+        <button id = "retry5" style = "float: right;">Restart</button>
+      </div>
+      
+      <div class = "Time">
+        <h3>Is your data time dependent?</h3>
+        <img src = "Qim/Time.png" style = "width: 100%; left: 50%;"><br>
+        <button id = "Memory" style = "float: left;">Time Dependent</button>
+        <button id = "NoMemory" style = "float: right;">Time Independent</button>
+        <br>
+      </div>
+
+      <div class = "DaMem">
+        <h2>You may find our predictors useful.</h2>
+        <p>Contact us with your results to begin.</p>
+        <br>
+        <button id = "retry6" style = "float: right;">Restart</button>
+      </div>
+
+      <div class = "DaVal">
+        <h2>You may find our data processors useful.</h2>
+        <p>Contact us with your results to begin.</p>
+        <br>
+        <button id = "retry7" style = "float: right;">Restart</button>
+      </div>
+    </div>
+    <br>
+
+    <h2>Our Data Processors</h2>
+    <p>&emsp;&emsp;Our data processors are designed to handle diverse datasets, which may include a variety of data types such as numerical values, labels, and other relevant information. These systems are capable of analyzing the input data and generating valuable outputs in the form of numeric values, categorical assignments, or predictions. Potential uses include taking historical data and generating forecasts or predictions, detecting anomalies, or identifing certain obects.</p>
+
+    <h2>Our Image Processors</h2>
+    <p>&emsp;&emsp;Our data processors have the capability to derive valuable information in the form of categories or numerical values from datasets containing images. These processors may be used in image classification, object indentification, and anomaly detection.</p>
+
+    <h2>Pricing</h2>
+    <p>&emsp;&emsp;At our core, we specialize in the creation of efficient machine learning models tailored to your dataset. Beyond just delivering models, we offer support throughout your entire journey. We will assist you in the data gathering process, ensuring that your dataset is well-prepared and structured for optimal results. Moreover, we prioritize user experience by designing user-friendly interfaces. Our pricing is as follows:</p>
+    
+    <ul>
+    <li>
+        <strong>Model Charges:</strong>
+        <ul>
+            <li>Data Processor: $30</li>
+            <li>Image Processor: $50</li>
+            <li>Predictor: $50</li>
+        </ul>
+    </li>
+    <li><strong>Data Gathering and Relevant Services:</strong> $15 per hour</li>
+    <li>
+        <strong>Data Size Charges:</strong>
+        <ul>
+            <li>Non-Image Datasets: $1 per 10 KB</li>
+            <li>Image Datasets: $1 per 10 MB</li>
+        </ul>
+    </li>
+    <li><strong>Onsite Visit (if applicable):</strong> $20 per visit (other charges may apply)</li>
+</ul>
+    <h6>Other programming-related services, such as basic website and game design, may be completed upon request, but are not guaranteed or priced.</h6>
+  </div>
+    
+  <script src="script3.js"></script>
+</body>
+<footer class = "footer">
+  <h3><a href = "index4.html" style = "color: #000404; font-size: medium;">Questions? Contact us today!</a></h3>
+</footer>
+
+</html>
