@@ -10,7 +10,7 @@
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #080708;
 }
 
 /* Style the navigation bar links */
@@ -29,7 +29,7 @@
 }
 
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #F7FEFF;
   color: black;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .body {
-  background-color: #faffff;
+  background-color: #F7FEFF;
   margin: 0px;
 }
 .row {  
@@ -123,7 +123,7 @@
 
 
 .collapsible {
-  background-color: #eee;
+  background-color: #43AA8B;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -132,7 +132,7 @@
   outline: none;
   font-size: large;
   font-family: Noto Sans, Helvetica, sans-serif;
-  color: #000404;
+  color: #F7FEFF;
   font-weight: 500;
 }
 
@@ -150,7 +150,7 @@
 
 .coltext{
   font-family: Noto Sans, Helvetica, sans-serif;
-  color: #000404;
+  color: #080708;
   display: none;
 }
 
@@ -215,7 +215,7 @@
 }
 
 .coltext button {
-  background-color: #4CAF50; /* Green */
+  background-color: #EFCA08;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -226,11 +226,15 @@
 }
 
 .footer {
+  background: #080708;
   text-align: center;
-  background: #ddd;
   font-family: Noto Sans, Helvetica, sans-serif;
-  color: #000404;
+  color: #F7FEFF;
   padding: 2px;
+}
+
+.footer.a {
+  color: #F7FEFF;
 }
 
 @media screen and (max-width: 700px) {
